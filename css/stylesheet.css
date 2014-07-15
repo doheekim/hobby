@@ -1,0 +1,182 @@
+.nav {
+	width: 100%;
+	height: 70px;
+	background-color: #ededed;
+	border-bottom: 5px solid #e13434;
+	margin-top: -10px;
+	position: fixed;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+.nav  h3 {
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 0px;
+	position: relative;
+}
+
+ul {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -40px;
+}
+
+.nav  ul  li {
+	font-size: 17px;
+	font-family: Arial;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 17px;
+	font-family: Arial;
+	display: inline;
+	margin: 0px 50px 0px 50px;
+}
+
+a:hover {
+	color: #e13434;
+}
+
+.welcome {
+	height: 800px;
+	width: 100%;
+	background-color: #b8b8b8;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+.welcome img {
+	position: relative;
+	top: 100px;
+	left: 300px;
+	border: 2px solid #b9b9b9;
+}
+
+#welcome {
+	color: #ffffff;
+	font-size: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	position: absolute;
+	top: 230px;
+	left: 640px;
+}
+
+.welcome p {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Arial;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+.welcome p:hover {
+	color: #e13434;
+}
+
+.profile {
+	height: 730px;
+	width: 100%;
+	background-color: #fe7c60;
+	color: #ffffff;
+	font-family: Arial;
+	font-style: italic;
+}
+
+#test {
+	font-family: 'nanumgothiccoding';
+	font-weight: bold;
+	font-style: normal;
+}
+
+.profile * {
+	margin-left: 50px;
+}
+
+.profile p {
+	margin-top: 20px;
+}
+
+.profile a {
+	color: #ffffff;
+	font-family: Arial;
+	font-style: italic;
+}
+
+.profile a:hover {
+	background-color: #ffffff;
+	color: #fe7c60;
+}
+
+.like {
+	height: 730px;
+	width: 100%;
+	background-color: #6bd67e;
+	color: #ffffff;
+	font-family: Arial;
+	font-style: italic;
+	text-align: center;
+}
+
+.like span {
+	position: relative;
+	top: 50px;
+}
+
+.category {
+	height: 180px;
+	width: 180px;
+	border-radius: 100%;
+	margin-left: 50px;
+	margin-top: 30px;
+	background-color: #66cb78;
+	font-size: 20px;
+	float: left;
+}
+
+.category p {
+	margin-top: 80px;
+}
+
+.detail {
+	height: 130px;
+	width: 130px;
+	border-radius: 100%;
+	margin-left: 40px;
+	background-color: #66cb78;
+	font-size: 20px;
+	float: left;
+	margin-top: 70px;
+}
+
+.hobby {
+	height: 730px;
+	width: 100%;
+	background-color: #0ed4c8;
+	color: #ffffff;
+	font-family: Arial;
+	font-style: italic;
+}
+
+.hobby h1 {
+	margin-left: 50px;
+	margin-bottom: 70px;
+}
+
+.hobby p {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.hobby span {
+	background-color: #ffffff;
+	color: #0ed4c8;
+}
